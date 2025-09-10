@@ -1,0 +1,28 @@
+{
+  "name": "project-pdf-merger",
+  "version": "1.0.0",
+  "description": "this project  simply uses html, CSS, java script and bootstrap",
+  "main": "server.js",
+"type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashvinikumargautam/project-PDF-merger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashvinikumargautam/project-PDF-merger/issues"
+  },
+  "homepage": "https://github.com/ashvinikumargautam/project-PDF-merger#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "multer": "^2.0.2",
+    "pdf-merger-js": "^5.1.2"
+  }
+}
