@@ -8,24 +8,20 @@
 </head>
 <body>
   <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand">Navbar</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+  <div class="flex items-center justify-center h-screen">
+    <a class="navbar-brand my-1 mx-5 "><h1>PDF Merger Tool</h1></a>
   </div>
 </nav>
 
 <div class="container my-3">
-  <h1>YOUR FAVORITE PDF MERGER TOOL</h1>
+  <h3>YOUR FAVORITE PDF MERGER TOOL</h3>
   <form method ="post" action="/merge" enctype="multipart/form-data"
  >
 
     <div class="mb-3">
       <label for="formFile" class="form-label">Select the pdf file you want to merge</label>
       <input class="form-control" type="file" name="pdfs" id="formFile" multiple accept=".pdf">
-      <input class="btn btn-primary my-4" type="submit" value="submit">
+      <input class="btn btn-primary my-4" type="submit" value="Merge PDF">
     </div>
   </form>
 <!-- <div class="mb-3">
